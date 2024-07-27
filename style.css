@@ -1,0 +1,60 @@
+/*@keyframes flip {
+    from {transform: rotateX(90deg)}
+    to {transform: rotateX(0deg)}
+}
+*/
+
+@keyframes enter {
+    from {opacity: 0%; transform: translateX(20px)}
+    to {opacity: 100%; transform: translateX(0px)}
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+h1 {
+  font-family: "VT323", sans-serif;
+  margin: auto;
+  font-size: 50px;
+  border: solid 5px;
+  background-color: #3366ff;
+}
+
+.label {
+    margin: auto;
+    width: 35%;
+    text-align: left;    
+    animation: enter 1s;    
+}
+
+p {
+    font-size: 50px;
+    margin: auto;    
+}
+
+p.name {
+  font-family: "VT323", sans-serif;
+  margin: 0;
+  font-size: 200px;
+  text-align: center;
+  animation: enter 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+
+
+body {
+  overflow: hidden;
+  font-family: arial;
+  background-color: #b098f5;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input {
+  font-size: 30px;
+}
